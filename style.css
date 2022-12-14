@@ -53,7 +53,10 @@ h1 {
 }
 
 .btn-info {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
   margin: 20px;
   background-color: #8D769A;
 }
@@ -79,8 +82,8 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 180px;
   margin: 20px;
 }
 
@@ -89,6 +92,7 @@ h1 {
   font-size: 1.5rem;
   color: #615151;
 }
+
 
 /* Sobre mi */
 
@@ -210,6 +214,12 @@ h1 {
   margin: 10px;
 }
 
+/*
+.btn btn-info:hover {
+  background-color: #e3c3f0;
+}*/
+
+
 /* Articulos */
 
 .articulos {
@@ -226,6 +236,15 @@ h1 {
 
 .articulos .card-header {
   font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+.articulos .btn {
+  color: white;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
@@ -234,14 +253,8 @@ h1 {
   text-decoration: none;
 }
 
-.articulos .btn {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-}
-
 .articulos button:hover {
-  background-color: white;
+  background-color: #e3c3f0;
   color: #68507B;
 }
 
