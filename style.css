@@ -2,13 +2,18 @@
 
 .navbar {
   padding: 2.2rem;
-  background-color: #f5f6f7;
+  background-color: #304A6E;
   font-family: 'Raleway', sans-serif;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
+}
+
+.navbar-nav a{
+  color: white;
+  font-weight: bold;
 }
 
 /* Estilos generales */
@@ -21,13 +26,13 @@ section {
 }
 
 h1 {
-  font-size: 3.8rem;
+  font-size: 3.9rem;
   font-family: 'Dancing Script', cursive;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #28193D;
+  background-color: #304A6E;
 }
 
 .seccion-clara {
@@ -36,7 +41,7 @@ h1 {
 }
 
 .seccion-titulo {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 15px 0;
   font-family: 'Dancing Script', cursive;
 }
@@ -53,12 +58,13 @@ h1 {
 }
 
 .btn-info {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
   color: white;
   margin: 20px;
-  background-color: #8D769A;
+  background-color: #304A6E;
+  border: 2px;
+  border-style: inset;
 }
 
 .texto-negro {
@@ -97,7 +103,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 350px;
   padding: 10px;
 }
 
@@ -115,7 +121,7 @@ h1 {
 .experiencia .columna {
   font-family: 'Raleway', sans-serif;
   padding: 20px;
-  border: 2px solid #46315C;
+  border: 2px solid #C2C6CE;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,14 +131,14 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #46315C;
+  background-color: #0F1C30;
 }
 
 .experiencia i {
-  font-size: 2.5rem;
-  color: #8D769A;
-  background-color: #10091D;
+  font-size: 3rem;
+  color: #668DC0;
   padding: 8px 19px;
+  background-color: #304A6E;
   border-radius: 50%;
 }
 
@@ -153,7 +159,6 @@ h1 {
   margin: 5px;
 }
 
-
 /* Proyectos */
 
 .proyectos-recientes {
@@ -167,6 +172,12 @@ h1 {
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+}
+
+.proyectos-recientes button:hover {
+  background-color: #C0D0EF;
+  color: #0F1C30;
+  border-color: #C0D0EF;
 }
 
 .proyectos-contenedor {
@@ -185,9 +196,9 @@ h1 {
 }
 
 .overlay p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  color: #46315C;
+  color: #0F1C30;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -204,20 +215,16 @@ h1 {
   opacity: 1;
 }
 
+/*
 .overlay .iconos-contenedor {
   display: flex;
 }
-
+*/
 .overlay i {
-  color: #8D769A;
+  color: #668DC0;
   font-size: 60px;
   margin: 10px;
 }
-
-/*
-.btn btn-info:hover {
-  background-color: #e3c3f0;
-}*/
 
 
 /* Articulos */
@@ -227,11 +234,16 @@ h1 {
   padding: 30px;
 }
 
+.articulos p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
 .articulos .card {
   width: 80%;
   max-width: 600px;
   margin: 20px;
-  background-color: #e3c3f0;
+  background-color: #668DC0;
 }
 
 .articulos .card-header {
@@ -240,12 +252,9 @@ h1 {
   font-weight: bold;
 }
 
-
-
 .articulos .btn {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
 }
 
 .articulos ul {
@@ -253,10 +262,13 @@ h1 {
   text-decoration: none;
 }
 
+
 .articulos button:hover {
-  background-color: #e3c3f0;
-  color: #68507B;
+  background-color: #C0D0EF;
+  color: #0F1C30;
+  border-color: #C0D0EF;
 }
+
 
 /* Testimonios */
 
@@ -323,7 +335,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #68507B;
+  background-color: #668DC0;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -332,6 +344,12 @@ h1 {
   width: 100%;
   display: flex;
   align-items: center;
+}
+
+.contacto .seccion-titulo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .contacto .descripcion {
@@ -353,7 +371,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: #46315C;
+  color: #304A6E;
 }
 
 .contacto button i {
@@ -363,13 +381,13 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: #46315C;
+  color: #304A6E;
 }
 
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 200px;
 }
 
 .footer-logo {
@@ -406,17 +424,17 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #68507B;
+  border: 3px solid #668DC0;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #8D769A;
+  color: #668DC0;
 }
 
 .derechos-de-autor {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
-  color: #B3A3BA;
+  color: #C2C6CE;
   padding: 20px;
 }
 
